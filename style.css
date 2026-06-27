@@ -1,3 +1,4 @@
+/* Estilo geral */
 body {
   background-color: #0a0a0a; /* fundo escuro */
   color: #ffffff;
@@ -6,6 +7,7 @@ body {
   padding: 0;
 }
 
+/* Navegação */
 nav {
   background-color: #111;
   padding: 15px;
@@ -30,11 +32,13 @@ nav a:hover {
   color: #8000ff; /* roxo ao passar o mouse */
 }
 
+/* Cabeçalho */
 header, section {
   text-align: center;
-  padding: 50px;
+  padding: 40px;
 }
 
+/* Botões */
 button, .highlight {
   background-color: #8000ff; /* roxo */
   color: white;
@@ -42,9 +46,80 @@ button, .highlight {
   border: none;
   cursor: pointer;
   font-size: 16px;
+  border-radius: 5px;
 }
 
 button:hover {
   background-color: #39ff14; /* verde neon */
   color: black;
+}
+
+/* Cabeçalho da página profissional */
+.profile-header {
+  text-align: center;
+  padding: 40px;
+}
+
+.headline {
+  color: #39ff14;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Botão LinkedIn */
+.linkedin-btn {
+  background-color: #0077b5; /* azul LinkedIn */
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.linkedin-btn:hover {
+  background-color: #39ff14;
+  color: black;
+}
+
+/* Cards */
+.card {
+  background-color: #111;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  box-shadow: 0 0 10px #8000ff;
+  text-align: left;
+}
+
+.card h2 {
+  color: #39ff14;
+  margin-bottom: 15px;
+}
+
+/* Experiências */
+.job {
+  margin-bottom: 15px;
+}
+
+.job h3 {
+  color: #8000ff;
+  margin: 0;
+}
+
+.date {
+  font-size: 14px;
+  color: #aaa;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Listas */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 5px 0;
 }
