@@ -1,0 +1,50 @@
+body {
+  background-color: #0a0a0a; /* fundo escuro */
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #111;
+  padding: 15px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #39ff14; /* verde neon */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #8000ff; /* roxo ao passar o mouse */
+}
+
+header, section {
+  text-align: center;
+  padding: 50px;
+}
+
+button, .highlight {
+  background-color: #8000ff; /* roxo */
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #39ff14; /* verde neon */
+  color: black;
+}
