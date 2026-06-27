@@ -149,25 +149,24 @@ body.light header {
   background: rgba(255, 255, 255, 0.72);
 }
 
-/* LOGO */
-.logo {
-  font-size: 30px;
-  font-weight: 900;
-  letter-spacing: -1px;
-  color: var(--text);
-  min-width: 70px;
+/* LOGO PREMIUM */
+.logo{
+    font-size:34px;
+    font-weight:900;
+    letter-spacing:-2px;
+    min-width:70px;
+    cursor:pointer;
+
+    background:linear-gradient(135deg,#8a2be2,#39ff14);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+
+    transition:.35s;
 }
 
-.logo span {
-  color: var(--purple-soft);
-}
-
-/* NAV */
-nav ul {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-  list-style: none;
+.logo:hover{
+    transform:scale(1.05);
+    filter:drop-shadow(0 0 12px rgba(138,43,226,.6));
 }
 
 nav a {
