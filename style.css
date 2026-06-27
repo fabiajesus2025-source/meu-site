@@ -503,10 +503,21 @@ section h2::after {
   box-shadow: var(--shadow-purple);
 }
 
+/* CORREÇÃO DOS CARDS DE NÚMEROS */
+.number-card h2::after {
+  display: none !important;
+  content: none !important;
+}
+
 .number-card h2 {
-  font-size: 56px;
-  color: var(--green);
-  margin-bottom: 8px;
+  margin-bottom: 14px !important;
+  position: static !important;
+}
+
+.number-card p {
+  margin-top: 0;
+  position: relative;
+  z-index: 2;
 }
 
 .number-card p {
